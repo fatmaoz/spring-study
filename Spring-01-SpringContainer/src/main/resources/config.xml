@@ -6,4 +6,5 @@
 
 <!-- bean definitions here -->
 
+    <bean id="fullTimeMentor" class="services.FullTimeMentor"/>
 </beans>
