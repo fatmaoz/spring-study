@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -11,6 +12,8 @@
         <module name="Spring-04-BeanLifeCyle" />
         <module name="Spring-07-SpringBoot-Demo" />
         <module name="Spring-02-DI-ConstructorInjecton" />
+        <module name="Spring-09-ORM-TableCreation" />
+        <module name="Spring-09-ORM-Mapping-ManyToOne" />
         <module name="Spring-06-JavaCode-Configuration" />
         <module name="Spring-05-JavaAnnotation-Autowired" />
         <module name="Spring-06-JavaCode-PostConstruct-PreDestroy" />
@@ -19,6 +22,8 @@
         <module name="Spring-05-JavaAnnotations-Component" />
         <module name="Spring-03-BeanScope-Singleton-Prototype" />
         <module name="Spring-08-SpringBoot-MVC-Controller" />
+        <module name="Spring-09-ORM-Mapping-OneToOne" />
+        <module name="Spring-09-ORM-Mapping-OneToMany" />
         <module name="Spring-05-JavaAnnotation-Qualifier" />
         <module name="Spring-05-Value" />
       </profile>
@@ -40,6 +45,10 @@
       <module name="Spring-08-SpringBoot-MVC-Controller" target="11" />
       <module name="Spring-08-SpringBoot-MVC-Form" target="11" />
       <module name="Spring-08-SpringBoot-MVC-Model-View(Thymeleaf)" target="11" />
+      <module name="Spring-09-ORM-Mapping-ManyToOne" target="11" />
+      <module name="Spring-09-ORM-Mapping-OneToMany" target="11" />
+      <module name="Spring-09-ORM-Mapping-OneToOne" target="11" />
+      <module name="Spring-09-ORM-TableCreation" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -49,6 +58,10 @@
       <module name="Spring-08-SpringBoot-MVC-Controller" options="-parameters" />
       <module name="Spring-08-SpringBoot-MVC-Form" options="-parameters" />
       <module name="Spring-08-SpringBoot-MVC-Model-View(Thymeleaf)" options="-parameters" />
+      <module name="Spring-09-ORM-Mapping-ManyToOne" options="-parameters" />
+      <module name="Spring-09-ORM-Mapping-OneToMany" options="-parameters" />
+      <module name="Spring-09-ORM-Mapping-OneToOne" options="-parameters" />
+      <module name="Spring-09-ORM-TableCreation" options="-parameters" />
     </option>
   </component>
 </project>
