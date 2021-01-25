@@ -1,10 +1,17 @@
 package com.cybertek.entity;
 
 
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
 import javax.persistence.*;
 import java.util.List;
 
 @Entity
+@NoArgsConstructor
+@Getter
+@Setter
 public class Person {
 
     @Id
@@ -14,6 +21,17 @@ public class Person {
     private String firstName;
     private String lastName;
 
-    @OneToMany//field i list olmali :
-    private List<Address> address;
+    @OneToMany(mappedBy = "person")//field i list olmali :
+    private List<Address> addresses;
+
+    //case-1 unidirectional way
+//    @OneToMany
+//    @JoinColumn(name = "person_id") //bu satir ucuncu table create in olmasini onluyor direk adress table da person_id column i eklicek
+//    private List<Address> addresses;
+
+    public Person(String firstName, String lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+
+    }
 }
