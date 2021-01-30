@@ -3,6 +3,7 @@
   <component name="SqlDialectMappings">
     <file url="file://$PROJECT_DIR$/Spring-09-ORM-CinemaLab/src/main/resources/data.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/Spring-09-ORM-DerivedQueries/src/main/resources/data.sql" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/Spring-09-ORM-Mapping-JPQL-NamedQueries/src/main/resources/data.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/Spring-09-ORM-TableCreation/src/main/resources/data.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/Spring-09-SQL-Review/src/main/resources/console_2.sql" dialect="PostgreSQL" />
   </component>
