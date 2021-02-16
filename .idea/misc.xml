@@ -27,6 +27,15 @@
         <option value="$PROJECT_DIR$/Spring-09-ORM-CinemaLab/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-09-ORM-DerivedQueries/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-09-ORM-Mapping-JPQL-NamedQueries/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-10-Security-DefaultConfiguration/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-10-Security-CustomConfiguration/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-10-Security-HttpBasic-AutRoleBase/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-10-Security-HttpBasic-Database/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-10-Security-FormAuth/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-11-Rest-HttpVerbs-Legacy/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-11-Rest-HttpVerbs-Preferred/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-11-Rest-ResponseEntity/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring-11-Rest-Jackson/pom.xml" />
       </list>
     </option>
   </component>

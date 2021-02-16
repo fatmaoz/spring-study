@@ -27,6 +27,15 @@
       <module fileurl="file://$PROJECT_DIR$/Spring-09-ORM-Mapping-OneToOne/Spring-09-ORM-Mapping-OneToOne.iml" filepath="$PROJECT_DIR$/Spring-09-ORM-Mapping-OneToOne/Spring-09-ORM-Mapping-OneToOne.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-09-ORM-TableCreation/Spring-09-ORM-TableCreation.iml" filepath="$PROJECT_DIR$/Spring-09-ORM-TableCreation/Spring-09-ORM-TableCreation.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-09-SQL-Review/Spring-09-SQL-Review.iml" filepath="$PROJECT_DIR$/Spring-09-SQL-Review/Spring-09-SQL-Review.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-10-Security-CustomConfiguration/Spring-10-Security-CustomConfiguration.iml" filepath="$PROJECT_DIR$/Spring-10-Security-CustomConfiguration/Spring-10-Security-CustomConfiguration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-10-Security-DefaultConfiguration/Spring-10-Security-DefaultConfiguration.iml" filepath="$PROJECT_DIR$/Spring-10-Security-DefaultConfiguration/Spring-10-Security-DefaultConfiguration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-10-Security-FormAuth/Spring-10-Security-FormAuth.iml" filepath="$PROJECT_DIR$/Spring-10-Security-FormAuth/Spring-10-Security-FormAuth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-10-Security-HttpBasic-AutRoleBase/Spring-10-Security-HttpBasic-AutRoleBase.iml" filepath="$PROJECT_DIR$/Spring-10-Security-HttpBasic-AutRoleBase/Spring-10-Security-HttpBasic-AutRoleBase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-10-Security-HttpBasic-Database/Spring-10-Security-HttpBasic-Database.iml" filepath="$PROJECT_DIR$/Spring-10-Security-HttpBasic-Database/Spring-10-Security-HttpBasic-Database.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-11-Rest-HttpVerbs-Legacy/Spring-11-Rest-HttpVerbs-Legacy.iml" filepath="$PROJECT_DIR$/Spring-11-Rest-HttpVerbs-Legacy/Spring-11-Rest-HttpVerbs-Legacy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-11-Rest-HttpVerbs-Preferred/Spring-11-Rest-HttpVerbs-Preferred.iml" filepath="$PROJECT_DIR$/Spring-11-Rest-HttpVerbs-Preferred/Spring-11-Rest-HttpVerbs-Preferred.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-11-Rest-Jackson/Spring-11-Rest-Jackson.iml" filepath="$PROJECT_DIR$/Spring-11-Rest-Jackson/Spring-11-Rest-Jackson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-11-Rest-ResponseEntity/Spring-11-Rest-ResponseEntity.iml" filepath="$PROJECT_DIR$/Spring-11-Rest-ResponseEntity/Spring-11-Rest-ResponseEntity.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-study.iml" filepath="$PROJECT_DIR$/.idea/spring-study.iml" />
     </modules>
   </component>

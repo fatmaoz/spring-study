@@ -7,29 +7,38 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Spring-07-SpringBoot-Ioc-DI-Lab" />
         <module name="Spring-08-SpringBoot-MVC-Form" />
-        <module name="Spring-04-BeanLifeCyle" />
         <module name="Spring-07-SpringBoot-Demo" />
         <module name="Spring-09-ORM-Mapping-JPQL-NamedQueries" />
-        <module name="Spring-02-DI-ConstructorInjecton" />
         <module name="Spring-09-ORM-TableCreation" />
         <module name="Spring-09-ORM-Mapping-ManyToOne" />
-        <module name="Spring-09-ORM-Mapping-ManyToMany" />
-        <module name="Spring-09-ORM-DerivedQueries" />
+        <module name="Spring-11-Rest-HttpVerbs-Preferred" />
         <module name="Spring-06-JavaCode-Configuration" />
-        <module name="Spring-05-JavaAnnotation-Autowired" />
+        <module name="Spring-11-Rest-HttpVerbs-Legacy" />
         <module name="Spring-06-JavaCode-PostConstruct-PreDestroy" />
-        <module name="Spring-08-SpringBoot-MVC-Model-View(Thymeleaf)" />
         <module name="Spring-01-SpringContainer" />
-        <module name="Spring-05-JavaAnnotations-Component" />
         <module name="Spring-03-BeanScope-Singleton-Prototype" />
         <module name="Spring-08-SpringBoot-MVC-Controller" />
-        <module name="Spring-09-ORM-Mapping-OneToOne" />
         <module name="Spring-09-ORM-Mapping-OneToMany" />
         <module name="Spring-05-JavaAnnotation-Qualifier" />
-        <module name="Spring-05-Value" />
+        <module name="Spring-11-Rest-Jackson" />
         <module name="Spring-09-ORM-CinemaLab" />
+        <module name="Spring-10-Security-HttpBasic-Database" />
+        <module name="Spring-10-Security-DefaultConfiguration" />
+        <module name="Spring-07-SpringBoot-Ioc-DI-Lab" />
+        <module name="Spring-04-BeanLifeCyle" />
+        <module name="Spring-11-Rest-ResponseEntity" />
+        <module name="Spring-02-DI-ConstructorInjecton" />
+        <module name="Spring-09-ORM-Mapping-ManyToMany" />
+        <module name="Spring-10-Security-FormAuth" />
+        <module name="Spring-09-ORM-DerivedQueries" />
+        <module name="Spring-05-JavaAnnotation-Autowired" />
+        <module name="Spring-10-Security-HttpBasic-AutRoleBase" />
+        <module name="Spring-08-SpringBoot-MVC-Model-View(Thymeleaf)" />
+        <module name="Spring-05-JavaAnnotations-Component" />
+        <module name="Spring-09-ORM-Mapping-OneToOne" />
+        <module name="Spring-05-Value" />
+        <module name="Spring-10-Security-CustomConfiguration" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -57,6 +66,15 @@
       <module name="Spring-09-ORM-Mapping-OneToMany" target="11" />
       <module name="Spring-09-ORM-Mapping-OneToOne" target="11" />
       <module name="Spring-09-ORM-TableCreation" target="11" />
+      <module name="Spring-10-Security-CustomConfiguration" target="11" />
+      <module name="Spring-10-Security-DefaultConfiguration" target="11" />
+      <module name="Spring-10-Security-FormAuth" target="11" />
+      <module name="Spring-10-Security-HttpBasic-AutRoleBase" target="11" />
+      <module name="Spring-10-Security-HttpBasic-Database" target="11" />
+      <module name="Spring-11-Rest-HttpVerbs-Legacy" target="11" />
+      <module name="Spring-11-Rest-HttpVerbs-Preferred" target="11" />
+      <module name="Spring-11-Rest-Jackson" target="11" />
+      <module name="Spring-11-Rest-ResponseEntity" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -74,6 +92,15 @@
       <module name="Spring-09-ORM-Mapping-OneToMany" options="-parameters" />
       <module name="Spring-09-ORM-Mapping-OneToOne" options="-parameters" />
       <module name="Spring-09-ORM-TableCreation" options="-parameters" />
+      <module name="Spring-10-Security-CustomConfiguration" options="-parameters" />
+      <module name="Spring-10-Security-DefaultConfiguration" options="-parameters" />
+      <module name="Spring-10-Security-FormAuth" options="-parameters" />
+      <module name="Spring-10-Security-HttpBasic-AutRoleBase" options="-parameters" />
+      <module name="Spring-10-Security-HttpBasic-Database" options="-parameters" />
+      <module name="Spring-11-Rest-HttpVerbs-Legacy" options="-parameters" />
+      <module name="Spring-11-Rest-HttpVerbs-Preferred" options="-parameters" />
+      <module name="Spring-11-Rest-Jackson" options="-parameters" />
+      <module name="Spring-11-Rest-ResponseEntity" options="-parameters" />
     </option>
   </component>
 </project>
