@@ -18,12 +18,14 @@ import java.util.List;
 @RequestMapping("/products")
 public class ProductController {
 
+//ResponseEntity de status body ve header lar konuluyor.
     private ProductService productService;
 
     public ProductController(ProductService productService) {
         this.productService = productService;
     }
 
+    //Http Header ile yapilabilir
     @GetMapping(value = "/{id}")
     public ResponseEntity getProduct(@PathVariable("id") long id){
 
@@ -44,6 +46,7 @@ public class ProductController {
 
     }
 
+    //ResponseEntity ile yapilabilir
     @PostMapping
     public  ResponseEntity<List<Product>> createProduct(@RequestBody Product product){
         List<Product> set = productService.createProduct(product);
@@ -65,7 +68,7 @@ public class ProductController {
         return new ResponseEntity<>(list,responseHttpHeaders,HttpStatus.OK);
     }
 
-    //bu MultiValueMap structure i digerlerinden bir farki yok. Slide larda cesitleri var
+    //bu MultiValueMap structure i ile yapilabilir.digerlerinden bir farki yok. Slide larda cesitleri var
     @PutMapping(value = "/{id}")
     public  ResponseEntity<List<Product>> updateProduct(@PathVariable("id") long id,@RequestBody Product product){
 
@@ -78,6 +81,7 @@ public class ProductController {
         return new ResponseEntity<>(list,map,HttpStatus.OK);
     }
 
+    //ResponseBody i kendin olusturabilirsin
     @GetMapping("/read")
     public ResponseEntity<ResponseWrapper> readAllProducts(){
 

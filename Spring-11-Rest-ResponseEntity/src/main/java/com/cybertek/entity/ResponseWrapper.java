@@ -1,5 +1,6 @@
 package com.cybertek.entity;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -8,6 +9,8 @@ import org.springframework.http.HttpStatus;
 @Getter
 @Setter
 @NoArgsConstructor
+@JsonInclude(JsonInclude.Include.NON_NULL)//eger null ise json da visual olarak gostermiyor
+//@Eger @JsonIgnore kullanirsan body i komple ignore eder constructordaki empty olmasa bile
 public class ResponseWrapper {
 
     private boolean success;

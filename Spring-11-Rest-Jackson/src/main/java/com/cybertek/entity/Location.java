@@ -1,5 +1,6 @@
 package com.cybertek.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -11,6 +12,7 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 @Getter
 @Setter
+@JsonIgnoreProperties(value = {"hibernate_Lazy_Initializer"},ignoreUnknown = true)
 public class Location extends BaseEntity {
 
     private String name;
