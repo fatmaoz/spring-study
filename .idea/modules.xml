@@ -35,8 +35,10 @@
       <module fileurl="file://$PROJECT_DIR$/Spring-11-Rest-HttpVerbs-Legacy/Spring-11-Rest-HttpVerbs-Legacy.iml" filepath="$PROJECT_DIR$/Spring-11-Rest-HttpVerbs-Legacy/Spring-11-Rest-HttpVerbs-Legacy.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-11-Rest-HttpVerbs-Preferred/Spring-11-Rest-HttpVerbs-Preferred.iml" filepath="$PROJECT_DIR$/Spring-11-Rest-HttpVerbs-Preferred/Spring-11-Rest-HttpVerbs-Preferred.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-11-Rest-Jackson/Spring-11-Rest-Jackson.iml" filepath="$PROJECT_DIR$/Spring-11-Rest-Jackson/Spring-11-Rest-Jackson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-11-Rest-OpenApi3.0/Spring-11-Rest-OpenApi3.0.iml" filepath="$PROJECT_DIR$/Spring-11-Rest-OpenApi3.0/Spring-11-Rest-OpenApi3.0.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-11-Rest-ResponseEntity/Spring-11-Rest-ResponseEntity.iml" filepath="$PROJECT_DIR$/Spring-11-Rest-ResponseEntity/Spring-11-Rest-ResponseEntity.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-11-Rest-RestTemplate/Spring-11-Rest-RestTemplate.iml" filepath="$PROJECT_DIR$/Spring-11-Rest-RestTemplate/Spring-11-Rest-RestTemplate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Spring-11-Rest-SchoolLab/Spring-11-Rest-SchoolLab.iml" filepath="$PROJECT_DIR$/Spring-11-Rest-SchoolLab/Spring-11-Rest-SchoolLab.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-study.iml" filepath="$PROJECT_DIR$/.idea/spring-study.iml" />
     </modules>
   </component>

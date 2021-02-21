@@ -26,7 +26,9 @@
     <file url="file://$PROJECT_DIR$/Spring-11-Rest-HttpVerbs-Legacy/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-11-Rest-HttpVerbs-Preferred/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-11-Rest-Jackson/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-11-Rest-OpenApi3.0/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-11-Rest-ResponseEntity/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Spring-11-Rest-RestTemplate/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Spring-11-Rest-SchoolLab/src/main/java" charset="UTF-8" />
   </component>
 </project>

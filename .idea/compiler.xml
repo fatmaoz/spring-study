@@ -35,11 +35,13 @@
         <module name="Spring-05-JavaAnnotation-Autowired" />
         <module name="Spring-10-Security-HttpBasic-AutRoleBase" />
         <module name="Spring-08-SpringBoot-MVC-Model-View(Thymeleaf)" />
+        <module name="Spring-11-Rest-OpenApi3.0" />
         <module name="Spring-05-JavaAnnotations-Component" />
         <module name="Spring-09-ORM-Mapping-OneToOne" />
         <module name="Spring-05-Value" />
         <module name="Spring-11-Rest-RestTemplate" />
         <module name="Spring-10-Security-CustomConfiguration" />
+        <module name="Spring-11-Rest-SchoolLab" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -75,8 +77,10 @@
       <module name="Spring-11-Rest-HttpVerbs-Legacy" target="11" />
       <module name="Spring-11-Rest-HttpVerbs-Preferred" target="11" />
       <module name="Spring-11-Rest-Jackson" target="11" />
+      <module name="Spring-11-Rest-OpenApi3.0" target="11" />
       <module name="Spring-11-Rest-ResponseEntity" target="11" />
       <module name="Spring-11-Rest-RestTemplate" target="11" />
+      <module name="Spring-11-Rest-SchoolLab" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -102,8 +106,10 @@
       <module name="Spring-11-Rest-HttpVerbs-Legacy" options="-parameters" />
       <module name="Spring-11-Rest-HttpVerbs-Preferred" options="-parameters" />
       <module name="Spring-11-Rest-Jackson" options="-parameters" />
+      <module name="Spring-11-Rest-OpenApi3.0" options="-parameters" />
       <module name="Spring-11-Rest-ResponseEntity" options="-parameters" />
       <module name="Spring-11-Rest-RestTemplate" options="-parameters" />
+      <module name="Spring-11-Rest-SchoolLab" options="-parameters" />
     </option>
   </component>
 </project>
